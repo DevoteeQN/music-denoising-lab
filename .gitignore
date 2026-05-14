@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Local IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Package/cache folders
+.pip_cache/
+.pip_tmp/
+.cache/
+
+# Large datasets and generated paired data
+data/raw/musan/
+data/raw/musan_hf/
+data/raw/.torch_home/
+data/raw/.hf_home/
+data/processed/
+
+# Keep only placeholder/raw test path policy in README; do not publish private/course audio by default.
+data/raw/*.MP3
+data/raw/*.mp3
+data/raw/*.wav
+
+# Model checkpoints and heavy generated working directories
+outputs/checkpoints/
+outputs/demucs_eval/
+outputs/demucs_work/
+outputs/pretrained_input/
+outputs/pretrained_input_wav/
+
+# Audio outputs are generated artifacts. Keep figures/metrics/report instead.
+outputs/**/*.wav
+outputs/**/*.mp3
+outputs/metrics/*.log
+outputs/metrics/*.pid
+report/*.zip
+
+# Keep useful lightweight experiment artifacts
+!outputs/
+!outputs/figures/
+!outputs/figures/*.png
+!outputs/metrics/
+!outputs/metrics/*.csv
+!report/
+!report/**
+
+# Generated archive copies are local packaging artifacts.
+report/*.zip

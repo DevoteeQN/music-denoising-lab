@@ -1,0 +1,2 @@
+num_samples,mean_snr_noisy,mean_snr_baseline,mean_snr_denoiser,mean_snri_baseline,mean_snri_denoiser
+100,1.8496188021119295,2.2596567048103324,0.38114952392775775,0.4100379026984027,-1.4684692781841715

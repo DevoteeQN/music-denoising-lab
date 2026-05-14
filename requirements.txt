@@ -1,0 +1,16 @@
+torch
+torchaudio
+numpy
+scipy
+librosa
+soundfile
+matplotlib
+tqdm
+pyyaml
+pandas
+scikit-learn
+huggingface_hub
+datasets
+imageio-ffmpeg
+demucs
+denoiser

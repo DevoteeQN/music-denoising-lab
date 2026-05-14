@@ -1,0 +1,2 @@
+num_samples,mean_snr_noisy,mean_snr_baseline,mean_snr_cnn,mean_snri_baseline,mean_snri_cnn
+100,1.8496188021119295,2.2596567048103324,6.852600935618653,0.4100379026984027,5.002982133506722

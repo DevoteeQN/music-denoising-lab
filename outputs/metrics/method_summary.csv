@@ -1,0 +1,9 @@
+method,type,mean_snr,mean_snri
+Noisy input,input,1.8496188021119295,0.0
+Spectral gate baseline,traditional,2.2596567048103324,0.4100379026984027
+U-Net spectrogram mask,trained,6.952519340938053,5.102900538826123
+Lightweight TCN,trained,6.551895232395063,4.702276430283134
+Residual CNN mask,trained,6.852600935618653,5.002982133506722
+Tiny DiT-style Transformer,trained,3.8076017535491355,1.9579829514372065
+Pretrained Demucs zero-shot,pretrained,1.9566772556749836,0.10705845356305456
+Pretrained Denoiser DNS64,pretrained,0.38114952392775775,-1.4684692781841715

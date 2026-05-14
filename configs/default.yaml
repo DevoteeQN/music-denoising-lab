@@ -1,0 +1,27 @@
+sample_rate: 16000
+segment_seconds: 4.0
+n_fft: 1024
+hop_length: 256
+win_length: 1024
+batch_size: 8
+epochs: 30
+lr: 0.001
+num_workers: 0
+snr_list: [-5, 0, 5, 10]
+train_samples: 1000
+val_samples: 100
+test_samples: 100
+seed: 42
+base_channels: 16
+mask_scale: 1.0
+tcn_channels: 64
+tcn_kernel_size: 3
+tcn_blocks: 8
+tcn_encoder_kernel: 16
+tcn_encoder_stride: 8
+cnn_channels: 32
+cnn_layers: 8
+dit_dim: 96
+dit_depth: 4
+dit_heads: 4
+dit_patch_size: 32
