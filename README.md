@@ -322,3 +322,21 @@ Windows PowerShell 建议按 README 中的命令逐条运行。
 ## 可复现说明
 
 默认配置在 `configs/default.yaml` 中，包含采样率、片段长度、STFT 参数、训练轮数、学习率、随机种子和数据量。数据合成脚本会记录 `data/processed/metadata.csv`，其中包含每条样本使用的 clean/noise 来源和目标 SNR。
+## Web Demo
+
+The repository also includes a local Gradio demo for presentation use.
+
+Start it from a terminal:
+
+```bash
+python -m pip install -r requirements.txt
+python demo_app.py
+```
+
+Or on Windows, double-click:
+
+```text
+start_demo.bat
+```
+
+The demo lets you upload one noisy music file, run multiple methods, listen to each output, and inspect waveform and spectrogram comparisons. It does not compute a true SNR for uploaded files because they have no clean reference.

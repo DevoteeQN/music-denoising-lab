@@ -1,6 +1,6 @@
 torch
 torchaudio
-numpy
+numpy<2
 scipy
 librosa
 soundfile
@@ -14,3 +14,4 @@ datasets
 imageio-ffmpeg
 demucs
 denoiser
+gradio==6.14.0

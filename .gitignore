@@ -35,6 +35,7 @@ outputs/demucs_eval/
 outputs/demucs_work/
 outputs/pretrained_input/
 outputs/pretrained_input_wav/
+outputs/web_demo/
 
 # Audio outputs are generated artifacts. Keep figures/metrics/report instead.
 outputs/**/*.wav
